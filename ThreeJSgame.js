@@ -1,10 +1,14 @@
-// quiz3.js  recreate the blender Quiz 3 in javascript with threejs
-// created by Tim Hickey 11/22/2106
+/* Name: R. Guan
+ * Email: tianbao971@gmail.com
+ * Date: Jan. 2017
+ * The program create a simple 3D game with two playable levels.
+ */
+
 
 // first we declare the global variables that will be used
 // in all of the methods in this program  (init, animate, and render)
 var
-    level='splash', // this determine which scene gets rendered!
+    level = 'splash', // this determine which scene gets rendered!
     renderer,
 
     splashScene,splashCamera,  // scene and camera for opening credits
